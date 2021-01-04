@@ -93,12 +93,11 @@ if __name__ == '__main__':
     print('INTIALIZING MODEL...')
     observation_space = env.observation_space
     observation_shape = observation_space.shape
-    architecture = 'impala'
     in_channels = observation_shape[0]
     action_space = env.action_space
 
     # Model architecture
-    model = NatureModel(in_channels=in_channels)
+    model = ImpalaModel(in_channels=in_channels)
     recurrent = True
     action_size = action_space.n
     policy = CategoricalPolicy(model, recurrent, action_size)
