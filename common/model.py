@@ -49,7 +49,7 @@ class ImpalaModel(nn.Module):
         self.fc = nn.Linear(in_features=32 * 8 * 8, out_features=256)
 
         self.output_dim = 256
-        self.apply(orthogonal_init())
+        self.apply(orthogonal_init)
 
     def forward(self, x):
         x = self.block1(x)
