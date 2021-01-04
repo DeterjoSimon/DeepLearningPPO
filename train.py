@@ -4,7 +4,7 @@ from common.storage import Storage
 from common.model import NatureModel, ImpalaModel
 from common.policy import CategoricalPolicy
 from common import set_global_seeds, set_global_log_levels
-from agents.ppo import PPO
+from agent.ppo import PPO
 import os, time
 import gym
 from procgen import ProcgenEnv
