@@ -1,7 +1,9 @@
 # DeepLearningPPO
 PPO implementation for a project in the course Deep Learning (02456). This implementation runs through the IMPALA framework and tries to learn to play the game "Starpilot" offered by the Procgen Benchmark in order to evaluate the generalization capability of an agent linked to Reinforcement Learning.
 
-The Project resolves around an object-oriented vision where in train.py all the important classes used in the DRL algorithm are initialised one by one. These classes are respectively:
+A more interactive version of the project's code is offered in this Google Colab page: https://colab.research.google.com/drive/1XbSaI6rnRJbg2RVWaqmPqTitQxm5kZv7
+
+The Project resolves around an object-oriented implementation - in train.py all the important classes used in the DRL algorithm are initialised one by one. These classes are respectively:
 
 ## The PPO agent (ppo.py)
 This is where the PPO magic happens, in this class the agent is able to train and to evaluate itself on the respective triaining and evaluation environments it has been initialised with. The training method comprises of a predict and evaluation method. The latter uses the evaluation method to see its own performance once released in an evaluation environment. The training shares its data with a Logger to report relevant informations to be saved. At the end of the agent's training, a checkpoint is made where our model is saved for either further training or seperate video evaluation.
