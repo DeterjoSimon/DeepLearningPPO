@@ -27,3 +27,7 @@ Definition of orthogonal initialisation plus the appropriate attari wrappers fro
 All our tools for applying PPO for RL is pipelined through this script which is boiled down as the initialisation of all the neural-networks hyperparameters, the environment intialisation finally the initialisation of the classes stated above.
 
 Thank you to our supervisors help and our teacher for letting us work on this project. We have learnt so much about deep reinforcement learning and could not have imagined how much this subject still has much to offer!
+
+Here is a 20 million steps example of how our agent performs on an episode of 256 steps. Not bad huh? 
+
+![n7xQu2](https://i.makeagif.com/media/1-05-2021/n7xQu2.gif)
