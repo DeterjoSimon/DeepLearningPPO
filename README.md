@@ -30,4 +30,4 @@ Thank you to our supervisors help and our teacher for letting us work on this pr
 
 Here is a 20 million steps example of how our agent performs on an episode of 256 steps. Not bad huh? 
 
-![n7xQu2](https://i.makeagif.com/media/1-05-2021/n7xQu2.gif)
+![GdzUtG](https://i.makeagif.com/media/1-05-2021/GdzUtG.gif)
